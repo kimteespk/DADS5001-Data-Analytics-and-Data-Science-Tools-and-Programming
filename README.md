@@ -7,3 +7,6 @@
 ## 4. Streamlit 
       https://github.com/streamlit/streamlit
       https://docs.streamlit.io/library/get-started/create-an-app
+
+## Miscellaneous
+https://sysadmin.psu.ac.th/2018/09/17/open-thai-csv-excel-correctly/
