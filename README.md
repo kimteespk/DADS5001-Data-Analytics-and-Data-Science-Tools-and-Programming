@@ -14,3 +14,6 @@
 
 ## Miscellaneous
 - https://sysadmin.psu.ac.th/2018/09/17/open-thai-csv-excel-correctly/
+
+## Stats
+https://scipy-lectures.org/packages/statistics/index.html
