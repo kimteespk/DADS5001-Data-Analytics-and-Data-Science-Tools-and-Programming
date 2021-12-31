@@ -1,5 +1,24 @@
 # DADS5001-Data-Analytics-and-Data-Science-Tools-and-Programming
 
+1. Data Sources
+   - Twitter
+   - Youtube comment
+   - Web scraping
+   - Kaggle
+   - Uc irvine
+   - Data gov (Thai)
+2. Data cleansing
+   - Excel
+   - Openrefine
+   - Pandas
+3. Data manipulation & visualization
+   - Pandas
+   - Numpy
+   - Matplotlib
+   - seaborn
+   - plotly
+4. Streamlit
+
 # Outline (Sketch)
 
 ## 0. OpenRefine: https://openrefine.org/
