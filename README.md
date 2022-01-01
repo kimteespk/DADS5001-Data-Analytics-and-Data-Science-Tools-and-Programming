@@ -8,10 +8,9 @@
    - Kaggle
    - Uc irvine
    - Data gov (Thai)
-2. Data cleansing
+2. Data cleansing (tools)
    - Excel
    - Openrefine
-   - Pandas
 3. Data manipulation & visualization
    - Pandas
    - Numpy
