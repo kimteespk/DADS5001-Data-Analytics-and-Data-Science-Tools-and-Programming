@@ -1,6 +1,6 @@
 ## Outline
 
-## 1.1 Introduction to Github
+1.1 Introduction to Github
 
 1.2 Data Sources <br>
     1.2.1 <a href="https://twitter.com/home">Twitter</a> </br>
