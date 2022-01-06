@@ -8,12 +8,13 @@
    - Uc irvine
    - Data gov (Thai)
    - Etc.
-2. Data cleansing (tools) (2 weeks)
+2. Data cleansing (tools) (1 weeks)
    - Openrefine
-3. Data manipulation & visualization (10 weeks)
+3. Data manipulation & visualization (8 weeks)
 4. Streamlit (2 weeks)
-5. Final project presentation (1 week)
-6. Midterm (50%), Final project (50%)
+5. Tableau (2 weeks)
+6. Final project presentation (1 week)
+7. Midterm (50%), Final project (50%)
 
 # References
 ### 0. OpenRefine: https://openrefine.org/
