@@ -12,3 +12,8 @@
 
 Colab </br>
     https://github.com/ekaratnida/DADS5001-Data-Analytics-and-Data-Science-Tools-and-Programming/blob/main/01_Data_Sources/week1.ipynb
+    
+Install openrefine
+    https://openrefine.org/
+
+
