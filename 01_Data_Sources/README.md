@@ -10,5 +10,5 @@
     1.2.5 <a href="https://archive.ics.uci.edu/ml/datasets.php"> UCI dataset </a> </br> 
     1.2.6 <a href="https://data.go.th/"> Data gov (Thai) </a> </br> 
 
-Colab
-https://colab.research.google.com/drive/1tDzjKxC6P1t9vA_5zEhCK3CXyqGTtaw1#scrollTo=TfnV1SYjPbEL
+Colab </br>
+    https://github.com/ekaratnida/DADS5001-Data-Analytics-and-Data-Science-Tools-and-Programming/blob/main/01_Data_Sources/week1.ipynb
