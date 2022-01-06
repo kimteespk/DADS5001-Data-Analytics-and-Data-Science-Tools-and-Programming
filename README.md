@@ -1,23 +1,17 @@
 # DADS5001-Data-Analytics-and-Data-Science-Tools-and-Programming
 
-0. Github
-1. Data Sources
+1. Intro to Github & Data Sources (1 week)
    - Twitter
    - Youtube comment
    - Web scraping
    - Kaggle
    - Uc irvine
    - Data gov (Thai)
-2. Data cleansing (tools)
-   - Excel
+2. Data cleansing (tools) (2 weeks)
    - Openrefine
-3. Data manipulation & visualization
-   - Pandas
-   - Numpy
-   - Matplotlib
-   - seaborn
-   - plotly
-4. Streamlit
+3. Data manipulation & visualization (10 weeks)
+4. Streamlit (2 weeks)
+5. Final project presentation (1 week)
 
 # Outline (Sketch)
 
