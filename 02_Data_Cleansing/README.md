@@ -14,4 +14,8 @@ https://www.youtube.com/watch?v=yTJ6x6zEQmI
 2. Facet
 3. Sort
 4. Transform (Edit)
-   * 4.1 Clustering methods https://docs.openrefine.org/manual/cellediting#clustering-methods
+   * 4.1 Edit date (filter '{' then invert, filter '-', Edit cell --> transform --> value.toDate().toString("MM/dd/yyyy") )
+   * 4.2 Add column based on this column (value.length()) --> Facet by numeric
+   * 4.3 Split into multiple columns (Format digital)
+   * 4.4 Edit columns by fetching URL
+   * 4.5 Edit cells: Clustering methods https://docs.openrefine.org/manual/cellediting#clustering-methods
