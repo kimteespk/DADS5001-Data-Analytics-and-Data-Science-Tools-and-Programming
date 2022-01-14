@@ -22,9 +22,11 @@
 ### 2. Pandas 
 - https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
 - https://pandastutor.com/
-### 3. MatPlotLib https://matplotlib.org/stable/tutorials/index.html
-### 4. c3 https://c3js.org/
-### 5. Streamlit https://github.com/streamlit/streamlit
+### 3. Visualization
+- 3.1 MatPlotLib https://matplotlib.org/stable/tutorials/index.html
+- 3.2 c3 https://c3js.org/
+- 3.3 p5js https://vda-lab.github.io/2015/10/hands-on-data-visualization-using-p5
+### 4. Streamlit https://github.com/streamlit/streamlit
       https://docs.streamlit.io/library/get-started/create-an-app
 
 ### Miscellaneous
