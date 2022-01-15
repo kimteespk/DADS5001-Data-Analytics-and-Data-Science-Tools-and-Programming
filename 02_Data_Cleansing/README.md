@@ -19,3 +19,7 @@ https://www.youtube.com/watch?v=yTJ6x6zEQmI
    * 4.3 Split into multiple columns (Format digital)
    * 4.4 Edit columns by fetching URL
    * 4.5 Edit cells: Clustering methods https://docs.openrefine.org/manual/cellediting#clustering-methods
+
+
+# Big data handle?
+https://pandas.pydata.org/pandas-docs/stable/user_guide/scale.html
