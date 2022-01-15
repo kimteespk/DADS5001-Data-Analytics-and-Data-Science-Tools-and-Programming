@@ -22,4 +22,6 @@ https://www.youtube.com/watch?v=yTJ6x6zEQmI
 
 
 # Big data handle?
-https://pandas.pydata.org/pandas-docs/stable/user_guide/scale.html
+- https://pandas.pydata.org/pandas-docs/stable/user_guide/scale.html
+- Handle million rows of data: https://webscraper.io/blog/data-transformation-with-Open-Refine
+- 
