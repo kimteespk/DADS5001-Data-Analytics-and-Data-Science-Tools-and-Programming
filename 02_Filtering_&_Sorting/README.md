@@ -11,3 +11,7 @@ https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
 
 This guy is a genius </br>
 https://phyblas.hinaboshi.com/
+
+pandas manual </br>
+https://pandas.pydata.org/docs/pandas.pdf
+
