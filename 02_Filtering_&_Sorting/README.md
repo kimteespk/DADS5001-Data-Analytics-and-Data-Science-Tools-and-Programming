@@ -15,3 +15,6 @@ https://phyblas.hinaboshi.com/
 pandas manual </br>
 https://pandas.pydata.org/docs/pandas.pdf
 
+numpy paper </br>
+https://www.nature.com/articles/s41586-020-2649-2.pdf
+
