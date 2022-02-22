@@ -44,7 +44,11 @@ Pie charts allow viewers to visualize component parts of a whole. If your aim is
 https://multimedia.journalism.berkeley.edu/tutorials/visualizing-data-a-guide-to-chart-types/
 
 - Matplotlib: https://matplotlib.org/
+  - https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Matplotlib_Cheat_Sheet.pdf
+  - https://matplotlib.org/cheatsheets/cheatsheets.pdf
 - Seaborn: https://seaborn.pydata.org/
+  - https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Python_Seaborn_Cheat_Sheet.pdf
+  - https://www.kaggle.com/themlphdstudent/cheat-sheet-seaborn-charts
 - Plotly: https://plotly.com/python/
 
 Info: </br>
