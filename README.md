@@ -27,6 +27,7 @@
 - 3.2 c3 https://c3js.org/
 - 3.3 p5js https://vda-lab.github.io/2015/10/hands-on-data-visualization-using-p5
 - 3.4 Great free E-Book https://hal.inria.fr/hal-03427242/document
+- 3.5 https://rpsychologist.com/viz/
 ### 4. Streamlit https://github.com/streamlit/streamlit
       https://docs.streamlit.io/library/get-started/create-an-app
 
