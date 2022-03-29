@@ -8,7 +8,6 @@ import pandas as pd
 app = Dash(__name__)
 
 df = pd.read_csv('https://github.com/chris1610/pbpython/blob/master/data/cereal_data.csv?raw=True')
-df.head()
 
 fig1 = px.scatter(df,
                 x='sugars',
@@ -17,6 +16,7 @@ fig1 = px.scatter(df,
                 title='Cereal ratings vs. sugars')
 
 fig2 = px.histogram(df, x='sugars', title='Rating distribution')
+
 
 app.layout = html.Div([ 
 
@@ -50,23 +50,22 @@ app.layout = html.Div([
             1,
             10,
             step=None,
-            value=10,
-            marks={str(i): str(i) for i in range(10)},
-        id='nbin-slider'
-    )
+            value=3,
+            marks={str(i): str(i) for i in range(11)},
+            id='nbin-slider'
+        )
+
     ], style={'padding': 10, 'flex': 1})
- ], style={'display': 'flex', 'flexDirection': 'row'})
+
+ ], style={'display': 'flex', 'flexDirection': 'row', 'flex-wrap': 'wrap'})
 
 
 @app.callback(
     Output('example-graph2', 'figure'),
     Input('nbin-slider', 'value'))
 def update_figure(x):
-    
-    fig2 = px.histogram(df, x='sugars', title='Rating distribution',nbins=int(x))
-
+    fig2 = px.histogram(df, x='sugars', title='Rating distribution',nbins=x)
     fig2.update_layout(transition_duration=500)
-
     return fig2
 
 
