@@ -17,18 +17,20 @@ df = pd.DataFrame({
 
 fig = px.bar(df, x="Fruit", y="Amount", color="City", barmode="group")
 
-app.layout = html.Div(children=[
-    html.H1(children='Hello Dash22222'),
+app.layout = html.Div(
+    children=[
+        html.H1(children='Hello Dash22222'),
 
-    html.Div(children='''
-        Dash: A web application framework for your data.
-    '''),
+        html.Div(children='''
+            Dash: A web application framework for your data.
+        '''),
 
-    dcc.Graph(
-        id='example-graph',
-        figure=fig
-    )
-])
+        dcc.Graph(
+            id='example-graph',
+            figure=fig
+        )
+    ]
+)
 
 if __name__ == '__main__':
     app.run_server(debug=True)
