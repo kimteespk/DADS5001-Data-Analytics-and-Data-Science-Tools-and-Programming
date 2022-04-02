@@ -3,16 +3,16 @@ from dash import Dash, dcc, html, Input, Output
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
-
-df = pd.read_csv('politics.csv')
+from pathlib import Path
+path = Path(__file__).parent.absolute()
+fpath = str(path)+'\politics.csv'
+df = pd.read_csv(fpath)
 print(df.head())
-#you can also read your data like this:
-# df = pd.read_csv('/home/charmingdata1/demo-app3/politics.csv')
+
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-# server = app.server
+server = app.server
 
-# radioItem list for the layout (long_code.py lines 13-45)
 radio_list = []
 for s,v in zip(['AZ','FL','GA','IA','ME','MI','NC','NV','OH','PA','TX','WI'],
                [11,29,16,6,4,16,15,6,18,20,38,10]):
@@ -33,10 +33,11 @@ for s,v in zip(['AZ','FL','GA','IA','ME','MI','NC','NV','OH','PA','TX','WI'],
             ),
         ], style={'textAlign':'end'})
     )
-print(radio_list)
+
+#print(radio_list)
 
 
-# Input list for the callback (long_code.py lines 48-52)
+# Input list for the callback
 input_list = []
 for x in ['AZ','FL','GA','IA','ME','MI','NC','NV','OH','PA','TX','WI']:
     input_list.append(

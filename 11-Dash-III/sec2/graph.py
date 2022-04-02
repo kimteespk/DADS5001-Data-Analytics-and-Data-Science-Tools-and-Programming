@@ -5,16 +5,18 @@ import plotly.express as px
 
 df = px.data.gapminder()
 print(df.head())
+
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = Dash(__name__, external_stylesheets=external_stylesheets)
 
 app.layout = html.Div([
+
     dcc.Dropdown(id='dpdn2', value=['Germany','Brazil'], multi=True,
                  options=[{'label': x, 'value': x} for x in
                           df.country.unique()]),
     html.Div([
         dcc.Graph(id='pie-graph', figure={}, className='six columns'),
-        dcc.Graph(id='my-graph', figure={}, clickData=None, hoverData=None, # I assigned None for tutorial purposes. By defualt, these are None, unless you specify otherwise.
+        dcc.Graph(id='my-graph', figure={}, clickData=None, hoverData=None,
                   config={
                       'staticPlot': False,     # True, False
                       'scrollZoom': True,      # True, False
@@ -70,3 +72,19 @@ def update_side_graph(hov_data, clk_data, slct_data, country_chosen):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+
+'''
+GDP Per Capita คือ ผลิตภัณฑ์มวลรวมในประเทศต่อหัว หรือ GDP ต่อหัว 
+เป็นตัวเลขที่บอกว่าค่าเฉลี่ยของ GDP เมื่อเทียบกับคนในประเทศแล้ว โดยเฉลี่ยคนหนึ่งคนสามารถสร้างมูลค่า GDP ขึ้นมาเท่าไหร่ 
+และแน่นอนว่า GDP per capita คือ ตัวเลขที่คำนวณมาจาก ค่า GDP ÷ จำนวนประชากร
+
+iso_alpha
+The 3-letter ISO 3166-1 alpha-3 code.
+
+iso_num
+The 3-digit ISO 3166-1 numeric-3 code.
+
+อายุคาดเฉลี่ย (Life Expectancy) : LE หรือ Life Expectancy หมายถึง
+การคาดประมาณจ านวนปีโดยเฉลี่ยของการมีชีวิตอยู่ของประชากร
+'''
+
