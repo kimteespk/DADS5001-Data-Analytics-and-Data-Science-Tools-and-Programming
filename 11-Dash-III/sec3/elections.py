@@ -9,7 +9,6 @@ fpath = str(path)+'\politics.csv'
 df = pd.read_csv(fpath)
 print(df.head())
 
-
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 

@@ -37,8 +37,8 @@ app.layout = html.Div([
 )
 def update_graph(country_chosen):
     dff = df[df.country.isin(country_chosen)]
-    fig = px.line(data_frame=dff, x='year', y='gdpPercap', color='country',
-                  custom_data=['country', 'continent', 'lifeExp', 'pop'])
+    #print(dff)
+    fig = px.line(data_frame=dff, x='year', y='gdpPercap', color='country',  hover_data=["lifeExp", "pop", "iso_alpha"])
     fig.update_traces(mode='lines+markers')
     return fig
 
@@ -54,7 +54,7 @@ def update_side_graph(hov_data, clk_data, slct_data, country_chosen):
     if hov_data is None:
         dff2 = df[df.country.isin(country_chosen)]
         dff2 = dff2[dff2.year == 1952]
-        print(dff2)
+        #print(dff2)
         fig2 = px.pie(data_frame=dff2, values='pop', names='country',
                       title='Population for 1952')
         return fig2
@@ -85,6 +85,6 @@ iso_num
 The 3-digit ISO 3166-1 numeric-3 code.
 
 อายุคาดเฉลี่ย (Life Expectancy) : LE หรือ Life Expectancy หมายถึง
-การคาดประมาณจ านวนปีโดยเฉลี่ยของการมีชีวิตอยู่ของประชากร
+การคาดประมาณจำนวนปีโดยเฉลี่ยของการมีชีวิตอยู่ของประชากร
 '''
 

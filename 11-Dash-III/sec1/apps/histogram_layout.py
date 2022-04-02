@@ -26,8 +26,8 @@ layout = html.Div(children=[
             1,
             10,
             step=None,
-            value=10,
-            marks={str(i): str(i) for i in range(10)},
+            value=3,
+            marks={str(i): str(i) for i in range(11)},
         id='nbin-slider'
         )
     
