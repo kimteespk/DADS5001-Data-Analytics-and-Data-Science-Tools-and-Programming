@@ -1,12 +1,5 @@
-from dash import Dash, dcc, html, Input, Output
-import plotly.express as px
-import pandas as pd
-
-# Connect to main app.py file
+from dash import dcc, html, Input, Output
 from app import app
-from app import server
-
-# Connect to your app pages
 from apps import scatter_layout, histogram_layout
 
 app.layout = html.Div([
@@ -18,7 +11,6 @@ app.layout = html.Div([
     html.Div(id='page-content', children=[])
 ])
 
-
 @app.callback(Output('page-content', 'children'),
               [Input('url', 'pathname')])
 def display_page(pathname):
@@ -28,7 +20,6 @@ def display_page(pathname):
         return histogram_layout.layout
     else:
         return "Please choose a link"
-
 
 if __name__ == '__main__':
     app.run_server(debug=False)
