@@ -1,5 +1,6 @@
 ## Install and setup
-https://www.tableau.com/products/desktop
+https://www.tableau.com/products/desktop </br>
+Student license: https://www.tableau.com/academic/students
 
 ## Video Tutorial
 https://www.tableau.com/learn/tutorials/on-demand/getting-started?playlist=365020
