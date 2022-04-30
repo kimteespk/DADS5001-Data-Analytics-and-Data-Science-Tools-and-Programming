@@ -7,7 +7,7 @@ https://www.tableau.com/learn/tutorials/on-demand/getting-started?playlist=36502
 
 ## 3. Call python script for clustering algorithm processing (Airbnb dataset)
 - Install and test Tabpy library 
-> pip install tabpy
+> pip install tabpy <br>
 Type> tabpy <br>
 Test running by open browser at "localhost:9004"
 
