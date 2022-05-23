@@ -17,11 +17,13 @@
 7. Midterm (50%), Final project (50%)
 
 ## Tutorial
-- https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb#scrollTo=foWN5wRVE0EF
-- https://github.com/jvns/pandas-cookbook
-- https://numpy.org/learn/
-- Exercise
+- Basic python: https://colab.research.google.com/github/cs231n/cs231n.github.io/blob/master/python-colab.ipynb#scrollTo=KxIaQs7pL9gE
+- Python handbook: https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb#scrollTo=foWN5wRVE0EF
+- Python cookbook: https://github.com/jvns/pandas-cookbook
+- Numpy: 
+  - https://numpy.org/learn/
   - https://github.com/rougier/numpy-100
+
 # References
 ### 0. OpenRefine: https://openrefine.org/
 ### 1. Numpy 
