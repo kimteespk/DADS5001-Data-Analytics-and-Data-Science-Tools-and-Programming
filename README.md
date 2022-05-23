@@ -18,7 +18,9 @@
 
 ## Tutorial
 - Basic python: https://colab.research.google.com/github/cs231n/cs231n.github.io/blob/master/python-colab.ipynb#scrollTo=KxIaQs7pL9gE
-- Statistics & Probability: https://web.mit.edu/~csvoss/Public/usabo/stats_handout.pdf
+- Statistics & Probability
+   - https://web.mit.edu/~csvoss/Public/usabo/stats_handout.pdf
+   - https://www.sas.upenn.edu/~astocker/lab/teaching-files/PSYC739-2016/probability_cheatsheet.pdf
 - Python handbook: https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/Index.ipynb#scrollTo=foWN5wRVE0EF
 - Python cookbook: https://github.com/jvns/pandas-cookbook
 - Numpy: 
