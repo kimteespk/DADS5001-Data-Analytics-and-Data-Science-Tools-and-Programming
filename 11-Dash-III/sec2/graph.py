@@ -22,7 +22,7 @@ app.layout = html.Div([
                       'scrollZoom': True,      # True, False
                       'doubleClick': 'reset',  # 'reset', 'autosize' or 'reset+autosize', False
                       'showTips': False,       # True, False
-                      'displayModeBar': True,  # True, False, 'hover'
+                      'displayModeBar': False,  # True, False, 'hover'
                       'watermark': True,
                       # 'modeBarButtonsToRemove': ['pan2d','select2d'],
                         },
