@@ -1,8 +1,4 @@
-Download: https://openrefine.org/download.html
-
-https://evanwill.github.io/clean-your-data/
-
-https://www.youtube.com/watch?v=yTJ6x6zEQmI
+# Download and install: https://openrefine.org/download.html
 
 # Why openrefine
 
@@ -24,4 +20,7 @@ https://www.youtube.com/watch?v=yTJ6x6zEQmI
 # Big data handle?
 - https://pandas.pydata.org/pandas-docs/stable/user_guide/scale.html
 - Handle million rows of data: https://webscraper.io/blog/data-transformation-with-Open-Refine
-- 
+
+# Good tutorial
+- https://evanwill.github.io/clean-your-data/
+- https://www.youtube.com/watch?v=yTJ6x6zEQmI
