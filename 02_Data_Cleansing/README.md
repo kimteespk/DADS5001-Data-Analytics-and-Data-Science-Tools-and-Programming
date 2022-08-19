@@ -1,4 +1,5 @@
-# Download and install: https://openrefine.org/download.html
+# Download and install: 
+- https://openrefine.org/download.html
 
 # Why openrefine
 
