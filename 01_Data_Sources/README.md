@@ -11,9 +11,9 @@
     1.2.6 <a href="https://data.go.th/"> Data gov (Thai) </a> </br> 
 
 Colab </br>
-    https://github.com/ekaratnida/DADS5001-Data-Analytics-and-Data-Science-Tools-and-Programming/blob/main/01_Data_Sources/week1.ipynb
-    
-Install openrefine
-    https://openrefine.org/
+- https://github.com/ekaratnida/DADS5001-Data-Analytics-and-Data-Science-Tools-and-Programming/blob/main/01_Data_Sources/week1.ipynb
+
+Parquet
+- https://www.kaggle.com/code/robikscube/fast-data-loading-and-low-mem-with-parquet-files      
 
 
