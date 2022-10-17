@@ -25,5 +25,5 @@
 # Big data handle?
 - https://pandas.pydata.org/pandas-docs/stable/user_guide/scale.html
 - Handle million rows of data: https://webscraper.io/blog/data-transformation-with-Open-Refine
-- https://www.kaggle.com/code/robikscube/fast-data-loading-and-low-mem-with-parquet-files
+
 
